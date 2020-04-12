@@ -2,7 +2,7 @@
 
 ```console
 $ datadir="${HOME}/.local/share"
-$ url='git@github.com:jonathan-conder'
+$ url='git@github.com:jonathan-conder-sm'
 
 $ git clone --bare "${url}/dotfiles.git" "${datadir}/dotgit"
 $ alias dotgit='git --git-dir="${datadir}/dotgit" --work-tree="$HOME"'
